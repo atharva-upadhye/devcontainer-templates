@@ -1,0 +1,39 @@
+{
+	"id": "ubuntu-pnpm-node",
+	"version": "0.0.2",
+	"name": "ubuntu + pnpm + node",
+	"description": "A basic development container with Node.js installed using PNPM binary on Ubuntu",
+	"documentationURL": "https://github.com/atharva-upadhye/devcontainer-templates/tree/main/templates/ubuntu-pnpm-node",
+	"licenseURL": "https://github.com/atharva-upadhye/devcontainer-templates/blob/main/LICENSE",
+	"options": {
+		"UBUNTU_VERSION": {
+			"type": "string",
+			"description": "Ubuntu devcontainer base version. Optional value reference: https://mcr.microsoft.com/en-us/artifact/mar/devcontainers/base/about#about:_ubuntu",
+			"proposals": [
+				"22.04",
+				"20.04"
+			],
+			"default": "22.04"
+		},
+		"PNPM_VERSION": {
+			"type": "string",
+			"description": "PNPM version. Optional value reference: https://nodejs.org/en/about/previous-releases",
+			"proposals": [
+				"9.15.0"
+			],
+			"default": "9.15.0"
+		},
+		"NODE_VERSION": {
+			"type": "string",
+			"description": "NODE.js version. Optional value reference: https://pnpm.io/",
+			"proposals": [
+				"22.12"
+			],
+			"default": "22.12"
+		}
+	},
+	"platforms": [
+		"Node.js",
+		"JavaScript"
+	]
+}
