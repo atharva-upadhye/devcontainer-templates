@@ -1,0 +1,7 @@
+{
+	"name": "ubuntu + pnpm + node",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "vscode"
+}
