@@ -13,20 +13,21 @@
 				"22.04",
 				"20.04"
 			],
-			"default": ""
+			"default": "22.04"
 		},
 		"PNPM_VERSION": {
 			"type": "string",
 			"description": [
 				"9.15.0"
 			],
-			"default": ""
+			"default": "9.15.0"
 		},
 		"NODE_VERSION": {
+			"type": "string",
 			"description": [
 				"22.12"
 			],
-			"default": ""
+			"default": "22.12"
 		}
 	},
 	"platforms": [
