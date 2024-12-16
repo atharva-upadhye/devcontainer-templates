@@ -1,14 +1,15 @@
 
-# Hello, World (hello)
+# Ubuntu + PNPM + Node.js
 
-A hello world Template
+A basic development container with Node.js installed using PNPM binary on Ubuntu
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon): | string | jammy |
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| UBUNTU_VERSION | Ubuntu version | string | default |
+| PNPM_VERSION | PNPM version | string | default |
+| NODE_VERSION | Node.js version | string | lts |
 
 
 
